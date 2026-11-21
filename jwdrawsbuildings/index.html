@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="assets/images/logo.png">
+<title>jwdrawsbuildings</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Newsreader:ital,opsz,wght@1,6..72,400&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="shell hero-wrap"><header class="hero">
+  <div>
+    <img class="logo" id="logoHero" alt="jwdrawsbuildings logo: a pencil drawing of a girl in a cap, sunglasses and headphones">
+    <h1>jwdrawsbuildings</h1>
+    <p class="lede">i started out drawing buildings as if they had feelings, and it’s grown from there. this is a visual diary of the places i’ve been and the buildings i’ve drawn, mostly in pencil, ink and watercolour, with a few imagined ones along the way. i add new pieces whenever i finish them.</p>
+    <div class="links"><a href="#restless-roofs">see the drawings</a><a href="#the-map">see where they were drawn</a></div>
+  </div>
+  <figure>
+    <div class="frame" data-open="cabin"><div class="stage" id="heroStage"><img class="art" id="heroArt" alt="the floating cabin, graphite and coloured pencil"></div></div>
+    <figcaption><b>the floating cabin</b><span id="heroHint">hover to light the fire</span></figcaption>
+  </figure>
+</header></div>
+
+<nav class="chapters" aria-label="collections"><div class="shell"><a class="mark" href="#top" id="markLink"><img id="logoNav" alt=""><span>jwdrawsbuildings</span></a><ul id="navList"></ul><a class="iglink" href="https://www.instagram.com/jw.drawsbuildings" target="_blank" rel="noopener" aria-label="jw.drawsbuildings on instagram"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></svg></a></div></nav>
+
+<main class="shell" id="main"><div class="viewsw" role="group" aria-label="how to browse"><button data-view="collections" aria-pressed="true">by collection</button><button data-view="timeline" aria-pressed="false">newest first</button></div></main>
+
+<section class="shell follow" aria-labelledby="follow-h"><div class="inner">
+  <img class="qr" id="qrImg" alt="qr code for the instagram account jw.drawsbuildings" width="520" height="522">
+  <div><h2 id="follow-h">follow along</h2><p>new drawings go up on instagram first. scan the code with your phone camera, or tap the button.</p>
+  <a class="ig" href="https://www.instagram.com/jw.drawsbuildings" target="_blank" rel="noopener">@jw.drawsbuildings on instagram</a></div>
+</div></section>
+
+
+<dialog class="viewer" id="viewer" aria-labelledby="vTitle">
+  <div class="v">
+    <div class="v-art" id="vArtWrap">
+      <div class="frame"><div class="stage" id="vStage"><img class="art" id="vArt" alt=""></div></div>
+      <p class="hint" id="vHint"></p>
+    </div>
+    <div class="v-panel" id="vPanel" tabindex="-1">
+      <div class="v-top"><p id="vGroup"></p><button class="close" id="vClose" aria-label="close">×</button></div>
+      <h2 class="v-title" id="vTitle"></h2>
+      <p class="v-meta" id="vMeta"></p>
+      <ul class="poem" id="vPoem"></ul>
+      <div id="vBlocks"></div>
+      <div class="v-nav"><button id="vPrev">previous</button><button id="vNext">next</button></div>
+    </div>
+  </div>
+</dialog>
+
+<script src="js/images.js"></script>
+<script src="js/map-data.js"></script>
+<script src="js/content.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

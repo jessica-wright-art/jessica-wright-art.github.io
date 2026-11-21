@@ -1,0 +1,41 @@
+/* every drawing: file path plus its width and height in pixels */
+const IMG = {
+  bigben: { src: "assets/images/bigben.webp", w: 775, h: 1100 },
+  station: { src: "assets/images/station.webp", w: 1100, h: 833 },
+  ship: { src: "assets/images/ship.webp", w: 1100, h: 724 },
+  canal: { src: "assets/images/canal.webp", w: 1100, h: 754 },
+  courtyard: { src: "assets/images/courtyard.webp", w: 1100, h: 822 },
+  magdalen: { src: "assets/images/magdalen.webp", w: 1100, h: 903 },
+  camden: { src: "assets/images/camden.webp", w: 841, h: 1100 },
+  warwick: { src: "assets/images/warwick.webp", w: 1100, h: 823 },
+  priors: { src: "assets/images/priors.webp", w: 1100, h: 716 },
+  farm: { src: "assets/images/farm.webp", w: 1100, h: 826 },
+  starry: { src: "assets/images/starry.webp", w: 875, h: 1100 },
+  queens: { src: "assets/images/queens.webp", w: 1100, h: 712 },
+  london: { src: "assets/images/london.webp", w: 1100, h: 751 },
+  nyc: { src: "assets/images/nyc.webp", w: 1100, h: 699 },
+  courts: { src: "assets/images/courts.webp", w: 1100, h: 820 },
+  wharf: { src: "assets/images/wharf.webp", w: 1100, h: 648 },
+  santorini: { src: "assets/images/santorini.webp", w: 1100, h: 772 },
+  terrace: { src: "assets/images/terrace.webp", w: 1100, h: 594 },
+  cabin: { src: "assets/images/cabin.webp", w: 1100, h: 740 },
+  mcdonalds: { src: "assets/images/mcdonalds.webp", w: 722, h: 1100 },
+  cornmarket: { src: "assets/images/cornmarket.webp", w: 1100, h: 922 },
+  history: { src: "assets/images/history.webp", w: 1100, h: 699 },
+  busker: { src: "assets/images/busker.webp", w: 1100, h: 811 },
+  radcam: { src: "assets/images/radcam.webp", w: 1100, h: 962 },
+  clarendon: { src: "assets/images/clarendon.webp", w: 1100, h: 775 },
+  smoky: { src: "assets/images/smoky.webp", w: 1100, h: 752 },
+  cottage: { src: "assets/images/cottage.webp", w: 1100, h: 754 },
+  underwater: { src: "assets/images/underwater.webp", w: 1100, h: 823 },
+  space: { src: "assets/images/space.webp", w: 1100, h: 875 },
+  livingroom: { src: "assets/images/livingroom.webp", w: 1100, h: 798 },
+  florence: { src: "assets/images/florence.webp", w: 814, h: 1100 },
+  nathist: { src: "assets/images/nathist.webp", w: 1100, h: 775 },
+  corner: { src: "assets/images/corner.webp", w: 1100, h: 772 },
+  stives: { src: "assets/images/stives.webp", w: 902, h: 1100 },
+  cacti: { src: "assets/images/cacti.webp", w: 1100, h: 406 }
+};
+
+const QR = "assets/images/instagram-qr.png";
+const LOGO = "assets/images/logo.png";
